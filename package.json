@@ -1,0 +1,11 @@
+{
+  "name": "the-grinn-server",
+  "version": "1.0.0",
+  "description": "Game server for THE GRINN: serves the game and relays co-op traffic",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" },
+  "license": "UNLICENSED",
+  "private": true
+}
